@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.benne-regular {
+    font-family: "Benne", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.Container{
+    position: absolute;
+    display: block;
+    top: 5%;
+    margin-left:37%;
+    height: 20vw;
+    width: 50%;
+}
+
+
+
+body{
+    overflow-y: scroll;
+    background-color: white;
+}
+
+
+#textContainer{
+    position: absolute;
+    display: block;
+    top: 20%;
+    margin-left:20%;
+    height: 30vw;
+    width: 60%;
+    
+    border: 0.5px solid black;
+    overflow-y: scroll;
+    background:radial-gradient(#f3e8cc,#f2e7cc) ;
+    font-family: "Benne", serif;
+    overflow-wrap:break-word;
+    
+}
+
+#textContainer::-webkit-scrollbar {
+    width: 0.7vw;
+    
+
+}
+
+#textContainer::-webkit-scrollbar-track {
+    display: none;
+}
+
+#textContainer::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: #CCD7F3; 
+}
+
+
+#inputBox{
+
+}
+
+#outputDiv{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#btnAttribute{
+    margin-left: 50%;
+}
+#btnConfirmAttribute{
+    margin-left: 20%;
+    display: none;
+}
+
+#btnDelete{
+    
+    margin-left: 2%;
+}
+
+#edit-pic-attribute{
+    height:1.5vw;
+    
+    margin-left: 5%;
+}
+#delete-pic-attribute{
+    height:1.5vw;
+    margin-left: 2%;
+}
+#confirm-pic-container{
+    margin-left: 5%;
+    width: 1%;
+    
+}
+#confirm-pic-attribute{
+    height:1.5vw;
+    display: block;
+    
+}
